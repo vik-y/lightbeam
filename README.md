@@ -1,7 +1,10 @@
 # Lightbeam for Firefox README
+Today Privacy on Internet is a major concern. While you open a website, you are connected to multiple websites without even knowing that. You never know how you are being tracked on the Internet. This plugin was originally under development at github.com/mozilla/lightbeam
+
 
 This is an add-on for Firefox that helps to visualize sites that may be tracking you around the internet. The add-on is available from https://addons.mozilla.org/en-US/firefox/addon/lightbeam/.
 
+I am trying to create a support on Chrome for this as this add on is not avaialable on Chrome but can be very useful for the users to visualize the way the surf Internet and how are they tracked over the internet. 
 
 ## Prerequisites
 
@@ -14,25 +17,8 @@ If you only want to see the demo, you don't need any of these; all you need is a
 
 First, [install][] the Mozilla Add-on SDK if you haven't already.
 
-Once it's installed, activate it in a command line terminal:
-
-    cd addon-sdk
-    source bin/activate
-
-Then, check out the Lightbeam repository and enter it (do this where you want the lightbeam directory, not in the addon-sdk directory):
-
-    git clone git://github.com/mozilla/lightbeam.git
-    cd lightbeam
-
-Finally, run:
-
-    cfx run
-
-This will start Firefox with a temporary profile that has Lightbeam installed. Just click on the Lightbeam icon at the bottom-right of the browser window to open the web front-end.
-
-At this point, any changes you make to the web front-end simply require reloading the tab containing it. Changing the add-on, however, will require quitting Firefox and running `cfx run` again.
-
-  [install]: https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation
+##Update:
+I am making support for making this plugin usable in 
 
 ## Software Used
 
